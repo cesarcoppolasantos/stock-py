@@ -10,6 +10,12 @@ This project allows you to keep track of items, categories, and quantities in a 
 - [ ]  Organize items by name, category, or quantity
 - [ ]  Track items by code or name
 
+## Technology Stack
+
+**Front-end:** HTML, CSS, Jinja2 templates (rendered by Flask)  
+
+**Back-end:** Python 3.12, Flask 3.1.2
+
 ## Getting Started
 
 To run the project locally:
@@ -48,4 +54,4 @@ python3 app.py
 
 6. Open your web browser and go to:
 
-http://127.0.0.1:5000/
+`http://127.0.0.1:5000/`
