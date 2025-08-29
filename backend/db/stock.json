@@ -1,0 +1,28 @@
+{
+    "stock": [
+        {
+            "code": 1,
+            "item": "item",
+            "category": "category",
+            "quantity": 1
+        },
+        {
+            "code": 2,
+            "item": "item",
+            "category": "category",
+            "quantity": 1
+        },
+        {
+            "code": 3,
+            "item": "item",
+            "category": "category",
+            "quantity": 1
+        },
+        {
+            "code": 4,
+            "item": "item",
+            "category": "category",
+            "quantity": 1
+        }
+    ]
+}
