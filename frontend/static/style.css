@@ -1,16 +1,25 @@
 body {
     padding: 0;
     margin: 0;
-    height: 100vh;
-    display: grid;
-    justify-items: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
 table {
-    font-family: arial, sans-serif;
+    font-family: Arial, sans-serif;
     border-collapse: collapse;
     width: 50%;
+    max-width: 800px;
+    margin: 20px 0;
 }
 
 td, th {
@@ -25,7 +34,7 @@ th {
 }
 
 td {
-    font-family:Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 tr:nth-child(even) {
@@ -34,4 +43,39 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
     background-color: #e1f3fd;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    max-width: 800px;
+    margin: 10px 0 0;
+    gap: 10px;
+}
+
+.add-button, .remove-button, .edit-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-button:hover, .remove-button:hover, .edit-button:hover {
+    opacity: 80%;
+}
+
+.add-button {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.remove-button {
+    color: white;
+    background-color: rgb(255, 58, 58);
+}
+
+.edit-button {
+    color: white;
+    background-color: rgb(255, 152, 58);
 }
